@@ -10,9 +10,9 @@
  *
  ******************************************************************************/
 #include "EEPROM.h"
-#include <STC15W4K60S4.H>
 #include "NRF24L01.H"
 #include "MPU6050.H"
+#include <stc/STC15W4K60S4.H>
 #include <intrins.h>
 
 #define CMD_IDLE    0

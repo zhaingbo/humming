@@ -1,8 +1,10 @@
-#include <STC15W4K60S4.H>
-#include <STC15W4KPWM.H>
-#include <NRF24L01.H>
-#include <Timer.h>
+
+#include "stc15w4kpwm.h"
+#include "driver/nrf24l01.h"
+#include "timer.h"
+
 extern unsigned char RxBuf[20];
+
 void PWMGO()
 {
 	int i = 1;
@@ -28,8 +30,9 @@ void PWMGO()
 	P2M1 = 0x00;
 	P3M0 = 0x80;
 	P3M1 = 0x00;
+
 	//使用定时器2作为时钟源
-	Time2_Init();
+	timer2_init();
 	P_SW2 = 0x80;  //最高位置1才能访问和PWM相关的特殊寄存器
 	PWMCFG = 0xb0;  //7位    6位                5位    4位    3位    2位    1位    0位
 	//置0  1-计数器归零触发ADC C7INI  C6INI  C5INI  C4INI  C3INI  C2INI

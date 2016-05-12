@@ -1,6 +1,9 @@
-#include <STC15W4K60S4.H>
-#include <USART.h>
+
+
+#include "usart.h"
+#include <stc/stc15w4k60s4.h>
 #include <intrins.h>
+
 bit busy;
 void Usart_Init()  //²¨ÌØÂÊ115200
 {

@@ -13,7 +13,7 @@
  **************************************************************************/
 
 #include "IMU.h"
-#include <STC15W4K60S4.H>
+#include <stc/STC15W4K60S4.H>
 #include <math.H>
 
 #define pi		3.14159265f

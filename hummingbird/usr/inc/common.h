@@ -4,7 +4,7 @@
  *
  * @file common.h
  *
- * 閫氱敤鎺ュ彛瀹氫箟
+ * 通用接口定义
  *
  * @author 
  *
@@ -12,30 +12,34 @@
 #ifndef _COMMON_H_
 #define _COMMON_H_
 
+#include "stdtype.h"
+
 #define PI			3.141592654f
 #define DEG_TO_RAD	(PI/180)
 #define	RAD_TO_DEG	(180/PI)
 
 
-inline float sq(float val)
-{
-	return (val*val);
-}
+#define ENABLE_INTEGRAL_MIN_THROTLLE 20
 
-/* 灏嗚搴﹁浆鍖栨垚寮у害 */
-inline float deg2rad(float deg)
-{
-	return deg * DEG_TO_RAD;
-}
+/*  */
+#define en_integral(throttle) \
+	(throttle > ENABLE_INTEGRAL_MIN_THROTLLE)
 
-/* 灏嗗姬搴﹁浆鍖栨垚瑙掑害 */
-inline float rad2deg(float rad)
-{
-	return rad * RAD_TO_DEG;
-}
+/* 计算一个数的平方 */
+#define sq(val) \
+	((val)*(val))
 
-/* 瀵瑰弬閲忚繘琛屼笂涓嬬嚎绾︽潫 */
-inline float constraint(float val, float min, float max)
+
+/* 将角度转化成弧度 */
+#define deg2rad(deg) \
+	(deg * DEG_TO_RAD)
+
+/* 将弧度转化成角度 */
+#define rad2deg(rad) \
+	(rad * RAD_TO_DEG)
+
+/* 对参量进行上下限约束 */
+float constraint(float val, float min, float max)
 {
 	if (val > max) {
 		val = max;

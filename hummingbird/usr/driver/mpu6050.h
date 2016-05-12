@@ -1,21 +1,37 @@
-#ifndef __MPU6050_H
-#define __MPU6050_H
+/**************************************************************************
+ *
+ *   Copyright (c) 2016 www.bjfz.cc. All rights reserved.
+ *
+ * @file mpu6050.h
+ *
+ * Abstract
+ *
+ * Detail
+ *
+ * @author Author zhanghaibo@bjfz.cc
+ *
+ *************************************************************************/
+#ifndef _MPU6050_H_
+#define _MPU6050_H_
 
-void  InitMPU6050();
-void  Delay2us();
-void  I2C_Start();
-void  I2C_Stop();
-bit   I2C_RecvACK();
-void  I2C_SendByte(unsigned char dat);
-unsigned char I2C_RecvByte();
-void  I2C_ReadPage();
-void  I2C_WritePage();
-unsigned char Single_ReadI2C(unsigned char REG_Address);
-void  Single_WriteI2C(unsigned char REG_Address, unsigned char REG_data);
-int GetData(unsigned char REG_Address);
+#include "inc/stdtype.h"
+
+void		InitMPU6050();
+uint16_t	GetData(uint8_t REG_Address);
+
+void		Delay2us();
+void		I2C_Start();
+void		I2C_Stop();
+bool		I2C_RecvACK();
+void		I2C_SendByte(uint8_t dat);
+uint8_t		I2C_RecvByte();
+void		I2C_ReadPage();
+void		I2C_WritePage();
+uint8_t		Single_ReadI2C(uint8_t REG_Address);
+void		Single_WriteI2C(uint8_t REG_Address, uint8_t REG_data);
 
 #define	SMPLRT_DIV		0x19	//陀螺仪采样率，典型值：0x07(125Hz)
-#define	CONFIG			  0x1A	//低通滤波频率，典型值：0x06(5Hz)
+#define	CONFIG			0x1A	//低通滤波频率，典型值：0x06(5Hz)
 #define	GYRO_CONFIG		0x1B	//陀螺仪自检及测量范围，典型值：0x18(不自检，2000deg/s)
 #define	ACCEL_CONFIG	0x1C	//加速计自检、测量范围及高通滤波频率，典型值：0x01(不自检，2G，5Hz)
 #define	ACCEL_XOUT_H	0x3B
@@ -33,7 +49,9 @@ int GetData(unsigned char REG_Address);
 #define	GYRO_ZOUT_H		0x47
 #define	GYRO_ZOUT_L		0x48
 #define	PWR_MGMT_1		0x6B	//电源管理，典型值：0x00(正常启用)
-#define	WHO_AM_I		  0x75	//IIC地址寄存器(默认数值0x68，只读)
+#define	WHO_AM_I		0x75	//IIC地址寄存器(默认数值0x68，只读)
 #define	SlaveAddress	0xD0	//IIC写入时的地址字节数据，+1为读取
-#define IICSPEED      0x24
-#endif
+#define IICSPEED		0x24
+
+#endif /* _MPU6050_H_ */
+

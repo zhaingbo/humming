@@ -3,7 +3,1907 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Administrator\Documents\Keil\humming\humming.uvproj
+F:\workspace\humming\hummingbird\humming.uvproj
 Project File Date:  05/12/2016
 
 <h2>Output:</h2>
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+usr\driver\eeprom.c(13): warning C318: can't open file 'STC15W4K60S4.H'
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+usr\app\imu.c(16): warning C318: can't open file 'STC15W4K60S4.H'
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+usr\driver\eeprom.c(13): warning C318: can't open file 'STC15W4K60S4.H'
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+usr\app\imu.c(16): warning C318: can't open file 'STC15W4K60S4.H'
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\eeprom.c(15): warning C318: can't open file 'STC15W4K60S4.H'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+usr\app\imu.c(16): warning C318: can't open file 'STC15W4K60S4.H'
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(15): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(25): error C141: syntax error near '*', expected ')'
+USR\DRIVER\NRF24L01.H(26): error C141: syntax error near 's', expected ')'
+USR\DRIVER\NRF24L01.H(27): error C141: syntax error near 'n', expected ')'
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+usr\app\imu.c(16): warning C318: can't open file 'STC15W4K60S4.H'
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\../INC/STDTYPE.H(17): warning C318: can't open file 'stc15w4k60s4.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\../INC/STDTYPE.H(17): warning C318: can't open file 'stc15w4k60s4.h'
+USR\DRIVER\NRF24L01.H(18): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(19): error C202: 'P1': undefined identifier
+USR\DRIVER\NRF24L01.H(20): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(21): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(22): error C202: 'P6': undefined identifier
+USR\DRIVER\NRF24L01.H(23): error C202: 'P4': undefined identifier
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+usr\app\imu.c(16): warning C318: can't open file 'STC15W4K60S4.H'
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+usr\timer.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\TIMER.C(23): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(24): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(25): error C202: 'IE': undefined identifier
+USR\TIMER.C(26): error C202: 'TL0': undefined identifier
+USR\TIMER.C(27): error C202: 'TH0': undefined identifier
+USR\TIMER.C(28): error C202: 'TF0': undefined identifier
+USR\TIMER.C(29): error C202: 'TR0': undefined identifier
+USR\TIMER.C(40): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(41): error C202: 'TMOD': undefined identifier
+USR\TIMER.C(42): error C202: 'IE': undefined identifier
+USR\TIMER.C(43): error C202: 'TL1': undefined identifier
+USR\TIMER.C(44): error C202: 'TH1': undefined identifier
+USR\TIMER.C(45): error C202: 'TF1': undefined identifier
+USR\TIMER.C(46): error C202: 'TR1': undefined identifier
+USR\TIMER.C(56): error C202: 'AUXR': undefined identifier
+USR\TIMER.C(57): error C202: 'T2L': undefined identifier
+USR\TIMER.C(58): error C202: 'T2H': undefined identifier
+USR\TIMER.C(59): error C202: 'AUXR': undefined identifier
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(44): warning C318: can't open file 'nrf24l01.h'
+usr\main.c(45): warning C318: can't open file 'mpu6050.h'
+usr\main.c(47): warning C318: can't open file 'stc15w4kpwm.h'
+usr\main.c(49): warning C318: can't open file 'eeprom.h'
+usr\main.c(50): warning C318: can't open file 'usart.h'
+usr\main.c(51): warning C318: can't open file 'imu.h'
+USR\MAIN.C(61): error C129: missing ';' before 'ich1'
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(47): warning C318: can't open file 'app/stc15w4kpwm.h'
+USR\DRIVER/NRF24L01.H(29): error C129: missing ';' before 'SPI_RW'
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(47): warning C318: can't open file 'app/stc15w4kpwm.h'
+USR\MAIN.C(173): warning C206: 'deg2rad': missing function-prototype
+USR\MAIN.C(173): error C267: 'deg2rad': requires ANSI-style prototype
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\app\stc15w4kpwm.c(4): warning C318: can't open file 'Timer.h'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(47): warning C318: can't open file 'app/stc15w4kpwm.h'
+USR\INC/COMMON.H(24): error C129: missing ';' before 'bool'
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+usr\main.c(47): warning C318: can't open file 'app/stc15w4kpwm.h'
+USR\INC/COMMON.H(24): error C129: missing ';' before 'bool'
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\INC/COMMON.H(24): error C129: missing ';' before 'bool'
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\INC/COMMON.H(24): error C129: missing ';' before 'bool'
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\MAIN.C(300): warning C206: 'Time0_Init': missing function-prototype
+USR\MAIN.C(368): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\MAIN.C(368): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\MAIN.C(368): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+usr\app\stc15w4kpwm.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\app\stc15w4kpwm.c(2): warning C318: can't open file 'STC15W4KPWM.H'
+usr\app\stc15w4kpwm.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\APP\STC15W4KPWM.C(10): error C202: 'P0M0': undefined identifier
+USR\APP\STC15W4KPWM.C(11): error C202: 'P0M1': undefined identifier
+USR\APP\STC15W4KPWM.C(12): error C202: 'P1M0': undefined identifier
+USR\APP\STC15W4KPWM.C(13): error C202: 'P1M1': undefined identifier
+USR\APP\STC15W4KPWM.C(14): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(15): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(16): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(17): error C202: 'P3M1': undefined identifier
+USR\APP\STC15W4KPWM.C(18): error C202: 'P4M0': undefined identifier
+USR\APP\STC15W4KPWM.C(19): error C202: 'P4M1': undefined identifier
+USR\APP\STC15W4KPWM.C(20): error C202: 'P5M0': undefined identifier
+USR\APP\STC15W4KPWM.C(21): error C202: 'P5M1': undefined identifier
+USR\APP\STC15W4KPWM.C(22): error C202: 'P6M0': undefined identifier
+USR\APP\STC15W4KPWM.C(23): error C202: 'P6M1': undefined identifier
+USR\APP\STC15W4KPWM.C(24): error C202: 'P7M0': undefined identifier
+USR\APP\STC15W4KPWM.C(25): error C202: 'P7M1': undefined identifier
+USR\APP\STC15W4KPWM.C(27): error C202: 'P2M0': undefined identifier
+USR\APP\STC15W4KPWM.C(28): error C202: 'P2M1': undefined identifier
+USR\APP\STC15W4KPWM.C(29): error C202: 'P3M0': undefined identifier
+USR\APP\STC15W4KPWM.C(30): error C202: 'P3M1': undefined identifier
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+USR\APP\STC15W4KPWM.C(34): warning C206: 'Time2_Init': missing function-prototype
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+usr\driver\usart.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\usart.c(2): warning C318: can't open file 'USART.h'
+USR\DRIVER\USART.C(7): error C202: 'SCON': undefined identifier
+USR\DRIVER\USART.C(8): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(9): error C202: 'AUXR': undefined identifier
+USR\DRIVER\USART.C(10): error C202: 'TMOD': undefined identifier
+USR\DRIVER\USART.C(11): error C202: 'TL1': undefined identifier
+USR\DRIVER\USART.C(12): error C202: 'TH1': undefined identifier
+USR\DRIVER\USART.C(13): error C202: 'ET1': undefined identifier
+USR\DRIVER\USART.C(14): error C202: 'TR1': undefined identifier
+USR\DRIVER\USART.C(15): error C202: 'EA': undefined identifier
+USR\DRIVER\USART.C(19): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(20): error C202: 'RI': undefined identifier
+USR\DRIVER\USART.C(23): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(24): error C202: 'TI': undefined identifier
+USR\DRIVER\USART.C(32): error C202: 'ACC': undefined identifier
+USR\DRIVER\USART.C(34): error C202: 'SBUF': undefined identifier
+USR\DRIVER\USART.C(39): error C202: 'ES': undefined identifier
+USR\DRIVER\USART.C(73): error C202: 'ES': undefined identifier
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(181): error C231: '_SPI_RW': redefinition
+USR\DRIVER\NRF24L01.C(187): error C129: missing ';' before 'SPI_Read'
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(204): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(212): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(219): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(232): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(239): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(252): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\nrf24l01.c(16): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(154): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(167): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(204): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(212): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(219): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(232): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(239): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(252): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(14): warning C318: can't open file 'STC15W4K60S4.H'
+USR\DRIVER\NRF24L01.C(152): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(153): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(166): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(203): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(211): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(218): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(231): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(238): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(251): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+usr\driver\mpu6050.c(1): warning C318: can't open file 'STC15W4K60S4.H'
+usr\driver\mpu6050.c(3): warning C318: can't open file 'MPU6050.H'
+usr\driver\mpu6050.c(4): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\MPU6050.C(6): error C202: 'P0': undefined identifier
+USR\DRIVER\MPU6050.C(7): error C202: 'P4': undefined identifier
+USR\DRIVER\MPU6050.C(18): error C141: syntax error near 'dat', expected ')'
+USR\DRIVER\MPU6050.C(19): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+USR\DRIVER\MPU6050.C(32): error C141: syntax error near 'dat', expected ')'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+USR\DRIVER\MPU6050.H(19): error C129: missing ';' before 'GetData'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\DRIVER/MPU6050.H(19): error C129: missing ';' before 'GetData'
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling eeprom.c...
+compiling mpu6050.c...
+USR\DRIVER\MPU6050.C(33): error C129: missing ';' before 'I2C_RecvByte'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+compiling mpu6050.c...
+USR\DRIVER\MPU6050.C(87): error C141: syntax error near 'dat', expected ')'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+compiling mpu6050.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(151): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(164): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(201): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(209): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(216): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(229): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(236): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(249): error C231: '_SPI_Write_Buf': redefinition
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(149): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(163): warning C235: parameter 1: different types
+USR\DRIVER\NRF24L01.C(200): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(208): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(215): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(228): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(235): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(248): error C231: '_SPI_Write_Buf': redefinition
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(149): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(200): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(208): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(215): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(228): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(235): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(248): error C231: '_SPI_Write_Buf': redefinition
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(149): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(200): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(208): error C231: '_SPI_RW_Reg': redefinition
+USR\DRIVER\NRF24L01.C(215): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(228): error C231: '_SPI_Read_Buf': redefinition
+USR\DRIVER\NRF24L01.C(235): error C231: '_SPI_Write_Buf': redefinition
+USR\DRIVER\NRF24L01.C(248): error C231: '_SPI_Write_Buf': redefinition
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(149): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(149): warning C182: pointer to different objects
+USR\DRIVER\NRF24L01.C(150): warning C182: pointer to different objects
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling nrf24l01.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created
+Build target 'humming'
+assembling STARTUP.A51...
+compiling eeprom.c...
+compiling mpu6050.c...
+compiling nrf24l01.c...
+compiling usart.c...
+compiling imu.c...
+compiling stc15w4kpwm.c...
+compiling main.c...
+USR\MAIN.C(345): error C249: 'DATA': SEGMENT TOO LARGE
+compiling timer.c...
+Target not created

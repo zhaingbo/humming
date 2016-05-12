@@ -13,8 +13,8 @@
 #define _STDTYPE_H_
 
 #include "stddef.h"
+#include <stc/stc15w4k60s4.h>
 #include <intrins.h>
-#include <stc15w4k60s4.h>
 
 typedef unsigned char	uint8_t;
 typedef signed char		int8_t;

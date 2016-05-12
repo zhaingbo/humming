@@ -1,36 +1,46 @@
-#include <STC15W4K60S4.H>
-#include <intrins.h>
-#include <MPU6050.H>
-#include <NRF24L01.H>
+/**************************************************************************
+ *
+ *   Copyright (c) 2016 www.bjfz.cc. All rights reserved.
+ *
+ * @file mpu6050.c
+ *
+ * Abstract
+ *
+ * Detail
+ *
+ * @author Author email
+ *
+ *************************************************************************/
+
+#include "mpu6050.h"
+#include "nrf24l01.h"
 
 sbit    SCL	  =	P0 ^ 0;			//IIC时钟引脚定义    Rev8.0硬件
 sbit    SDA	  =	P4 ^ 6;			//IIC数据引脚定义
+
 //sbit    SCL =	P2^5;			//IIC时钟引脚定义      Rev7.0硬件
 //sbit    SDA =	P2^6;			//IIC数据引脚定义
 
-void  InitMPU6050();													//初始化MPU6050
-void  Delay2us();
-void  I2C_Start();
-void  I2C_Stop();
-
-bit   I2C_RecvACK();
-
-void  I2C_SendByte(uchar dat);
-uchar I2C_RecvByte();
-
-void  I2C_ReadPage();
-void  I2C_WritePage();
-uchar Single_ReadI2C(uchar REG_Address);						//读取I2C数据
-void  Single_WriteI2C(uchar REG_Address, uchar REG_data);	//向I2C写入数据
+/* // 初始化MPU6050 */
+/* void	InitMPU6050(); */
+/* void	Delay2us(); */
+/* void	I2C_Start(); */
+/* void	I2C_Stop(); */
+/* bit		I2C_RecvACK(); */
+/* void	I2C_SendByte(uint8_t dat); */
+/* uint8_t I2C_RecvByte(); */
+/* void	I2C_ReadPage(); */
+/* void	I2C_WritePage(); */
+/* uint8_t Single_ReadI2C(uint8_t REG_Address);	//读取I2C数据 */
+/* void	Single_WriteI2C(uint8_t REG_Address, uint8_t REG_data);	//向I2C写入数据 */
 
 // IIC时序中延时设置，具体参见各芯片的数据手册
 // 6050推荐最小1.3us 但是会出问题，这里延时实际1.9us左右
 void Delay2us()
 {
-	unsigned char i;
+	uint8_t i;
 	i = 11;
-
-	while (--i);
+	while (i--);
 }
 
 //**************************************
@@ -74,9 +84,9 @@ bit I2C_RecvACK()
 //**************************************
 //向I2C总线发送一个字节数据
 //**************************************
-void I2C_SendByte(uchar dat)
+void I2C_SendByte(uint8_t dat)
 {
-	uchar i;
+	uint8_t i;
 
 	for (i = 0; i < 8; i++) {   //8位计数器
 		dat <<= 1;              //移出数据的最高位
@@ -93,10 +103,10 @@ void I2C_SendByte(uchar dat)
 //**************************************
 //从I2C总线接收一个字节数据
 //**************************************
-uchar I2C_RecvByte()
+uint8_t I2C_RecvByte()
 {
-	uchar i;
-	uchar dat = 0;
+	uint8_t i;
+	uint8_t dat = 0;
 	SDA = 1;                    //使能内部上拉,准备读取数据,
 
 	for (i = 0; i < 8; i++) {   //8位计数器
@@ -114,7 +124,7 @@ uchar I2C_RecvByte()
 //**************************************
 //向I2C设备写入一个字节数据
 //**************************************
-void Single_WriteI2C(uchar REG_Address, uchar REG_data)
+void Single_WriteI2C(uint8_t REG_Address, uint8_t REG_data)
 {
 	I2C_Start();                  //起始信号
 	I2C_SendByte(SlaveAddress);   //发送设备地址+写信号
@@ -126,9 +136,9 @@ void Single_WriteI2C(uchar REG_Address, uchar REG_data)
 //**************************************
 //从I2C设备读取一个字节数据
 //**************************************
-uchar Single_ReadI2C(uchar REG_Address)
+uint8_t Single_ReadI2C(uint8_t REG_Address)
 {
-	uchar REG_data;
+	uint8_t REG_data;
 	I2C_Start();                   //起始信号
 	I2C_SendByte(SlaveAddress);    //发送设备地址+写信号
 	I2C_SendByte(REG_Address);     //发送存储单元地址，从0开始
@@ -159,9 +169,9 @@ void InitMPU6050()
 //**************************************
 //合成数据
 //**************************************
-int GetData(uchar REG_Address)
+uint16_t GetData(uint8_t REG_Address)
 {
-	char H, L;
+	uint8_t H, L;
 	H =	Single_ReadI2C(REG_Address);
 	L =	Single_ReadI2C(REG_Address + 1);
 	return (H << 8) + L;			//合成数据
