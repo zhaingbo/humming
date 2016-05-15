@@ -1,7 +1,7 @@
-#ifndef __AD_H
-#define __AD_H
+#ifndef _AD_H_
+#define _AD_H_
 
-//************************************A/D寄存器定义***********************************************
+//************************************A/D寄存器定义***********************************
 #define ADC_POWER   0x80
 #define ADC_FLAG    0x10
 #define ADC_START   0x08
@@ -11,6 +11,7 @@
 #define ADC_SPEEDHH 0x60
 
 void adc_init();
-uint getADCResult(char ch);
+uint16_t get_adc_result(uint8_t ch);
 
-#endif
+#endif /* _AD_H_ */
+
