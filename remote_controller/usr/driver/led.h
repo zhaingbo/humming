@@ -14,7 +14,7 @@
 #ifndef _LED_H_
 #define _LED_H_
 
-#include "stdtype.h"
+#include "../inc/stdtype.h"
 
 #ifdef _LED_C_
 #  define LED_EXTERN

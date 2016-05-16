@@ -101,13 +101,18 @@ float ZP = 5.0, ZD = 4.0; //自旋控制的P D
 int16_t lastR0 = 0, ZT = 0; //上一次RxBuf[0]数据(RxBuf[0]数据在不断变动的)   状态标识
 int16_t i = 0;
 
+
+//油门			:TxBuf[4]
+//Yaw（偏航）	:TxBuf[3]
+//pitch(俯仰)	:TxBuf[1]
+//Roll(横滚)	:TxBuf[2]
 void Angle_Calculate() interrupt 1
 {
 	// 防止油门变化过快而失速
-	if (throttle<RxBuf[4]&&(RxBuf[4]-throttle) <= 2) {
+	if (throttle < RxBuf[4] && (RxBuf[4]-throttle) <= 2) {
 		throttle++;
 		throttle++;
-	} else if (throttle>RxBuf[4]&&(throttle-RxBuf[4]) <= 2) {
+	} else if (throttle>RxBuf[4] && (throttle-RxBuf[4]) <= 2) {
 		throttle--;
 		throttle--;
 	} else {

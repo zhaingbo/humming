@@ -1,10 +1,10 @@
-C51 COMPILER V9.00   NRF24L01                                                              05/12/2016 16:55:53 PAGE 1   
+C51 COMPILER V9.00   NRF24L01                                                              05/13/2016 08:41:31 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE NRF24L01
 OBJECT MODULE PLACED IN .\bin\nrf24l01.obj
-COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE usr\driver\nrf24l01.c BROWSE INCDIR(.\usr) DEBUG OBJECTEXTEND PRINT(.\listi
-                    -ng\nrf24l01.lst) OBJECT(.\bin\nrf24l01.obj)
+COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE usr\driver\nrf24l01.c LARGE BROWSE INCDIR(.\usr) DEBUG OBJECTEXTEND PRINT(.
+                    -\listing\nrf24l01.lst) OBJECT(.\bin\nrf24l01.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   52          #define OBSERVE_TX      0x08  // 发送监测功能
   53          #define CD              0x09  // 地址检测           
   54          #define RX_ADDR_P0      0x0A  // 频道0接收数据地址
-C51 COMPILER V9.00   NRF24L01                                                              05/12/2016 16:55:53 PAGE 2   
+C51 COMPILER V9.00   NRF24L01                                                              05/13/2016 08:41:31 PAGE 2   
 
   55          #define RX_ADDR_P1      0x0B  // 频道1接收数据地址
   56          #define RX_ADDR_P2      0x0C  // 频道2接收数据地址
@@ -126,7 +126,7 @@ line level    source
  114   1              CE = 0;
  115   1              SPI_Write_Buf(WR_TX_PLOAD, tx_buf, TX_PLOAD_WIDTH);
  116   1              SPI_RW_Reg(WRITE_REG + CONFIG2, 0x0e);
-C51 COMPILER V9.00   NRF24L01                                                              05/12/2016 16:55:53 PAGE 3   
+C51 COMPILER V9.00   NRF24L01                                                              05/13/2016 08:41:31 PAGE 3   
 
  117   1              CE = 1;
  118   1              inerDelay_us(10);   //CE高电平大于10us才能进入发射模式
@@ -190,7 +190,7 @@ line level    source
  175   1      
  176   1              return (dat);                                                           // return read dat
  177   1      }
-C51 COMPILER V9.00   NRF24L01                                                              05/12/2016 16:55:53 PAGE 4   
+C51 COMPILER V9.00   NRF24L01                                                              05/13/2016 08:41:31 PAGE 4   
 
  178          
  179          /**
@@ -254,7 +254,7 @@ line level    source
  237   1              uint8_t         i;
  238   1      
  239   1              CSN = 0;            //SPI使能
-C51 COMPILER V9.00   NRF24L01                                                              05/12/2016 16:55:53 PAGE 5   
+C51 COMPILER V9.00   NRF24L01                                                              05/13/2016 08:41:31 PAGE 5   
 
  240   1              status = SPI_RW(reg);
  241   1      
@@ -281,11 +281,11 @@ line level    source
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    436    ----
+   CODE SIZE        =    522    ----
    CONSTANT SIZE    =   ----    ----
-   XDATA SIZE       =   ----    ----
+   XDATA SIZE       =     10      21
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =     12      21
+   DATA SIZE        =      2    ----
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.

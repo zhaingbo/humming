@@ -1,0 +1,11 @@
+".\bin\STARTUP.obj",
+".\bin\eeprom.obj",
+".\bin\mpu6050.obj",
+".\bin\nrf24l01.obj",
+".\bin\usart.obj",
+".\bin\imu.obj",
+".\bin\stc15w4kpwm.obj",
+".\bin\main.obj",
+".\bin\timer.obj" 
+TO ".\bin\humming" 
+PRINT(".\listing\humming.m51") RAMSIZE(256) 

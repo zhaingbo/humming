@@ -1,10 +1,10 @@
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 1   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\bin\main.obj
-COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE usr\main.c BROWSE INCDIR(.\usr) DEBUG OBJECTEXTEND PRINT(.\listing\main.lst
-                    -) OBJECT(.\bin\main.obj)
+COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE usr\main.c LARGE BROWSE INCDIR(.\usr) DEBUG OBJECTEXTEND PRINT(.\listing\ma
+                    -in.lst) OBJECT(.\bin\main.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   50          #include "driver/mpu6050.h"
   51          #include "driver/nrf24l01.h"
   52          #include "driver/usart.h"
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 2   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 2   
 
   53          
   54          #include "inc/common.h"
@@ -126,7 +126,7 @@ line level    source
  111   2                      throttle--;
  112   2                      throttle--;
  113   2              } else {
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 3   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 3   
 
  114   2                      throttle = RxBuf[4];
  115   2              }
@@ -190,7 +190,7 @@ line level    source
  173   1              //***********************************四元数解算**************************
  174   1              // 0.174533为PI/180 目的是将角度转弧度
  175   1              IMUupdate(deg2rad(Angle_gx), deg2rad(Angle_gy), deg2rad(Angle_gz),
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 4   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 4   
 
  176   1                                Angle_ax, Angle_ay, Angle_az);
  177   1      
@@ -254,7 +254,7 @@ line level    source
  235   1      
  236   1              if (throttle > 20) {
  237   2                      ERRORY_In += (Angle_gx - Out_PID_Y); //内环积分(油门小于某个值时不积分)
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 5   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 5   
 
  238   2              } else {
  239   2                      ERRORY_In = 0; //油门小于定值时清除积分值
@@ -318,7 +318,7 @@ line level    source
  297   1              IAPRead();//读取陀螺仪静差
  298   1              InitMPU6050();//初始化MPU-6050
  299   1              Usart_Init();//初始化串口
-C51 COMPILER V9.00   MAIN                                                                  05/12/2016 16:55:54 PAGE 6   
+C51 COMPILER V9.00   MAIN                                                                  05/13/2016 08:41:31 PAGE 6   
 
  300   1              timer0_init();//初始化定时器
  301   1              RxBuf[1] = 128;
@@ -366,6 +366,17 @@ line level    source
  343   1      }
  344          
  345          
-*** ERROR C249 IN LINE 345 OF USR\MAIN.C: 'DATA': SEGMENT TOO LARGE
 
-C51 COMPILATION COMPLETE.  0 WARNING(S),  1 ERROR(S)
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   4431    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =    250      12
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

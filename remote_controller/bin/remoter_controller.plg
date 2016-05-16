@@ -4,6 +4,124 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 F:\workspace\humming\remote_controller\remoter_controller.uvproj
-Project File Date:  05/11/2016
+Project File Date:  05/12/2016
 
 <h2>Output:</h2>
+Build target 'rc'
+assembling STARTUP.A51...
+compiling ad.c...
+usr\driver\ad.c(1): warning C318: can't open file 'STC15F2K60S2.H'
+usr\driver\ad.c(3): warning C318: can't open file 'NRF24L01.H'
+usr\driver\ad.c(4): warning C318: can't open file 'AD.H'
+USR\DRIVER\AD.C(9): error C202: 'P1ASF': undefined identifier
+USR\DRIVER\AD.C(10): error C202: 'ADC_RES': undefined identifier
+USR\DRIVER\AD.C(11): error C202: 'ADC_CONTR': undefined identifier
+compiling led.c...
+USR\DRIVER\LED.H(17): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\LED.H(35): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(36): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(37): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(40): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(41): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(42): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(43): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(45): error C129: missing ';' before 'g_setting_type'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(1): warning C318: can't open file 'STC15F2K60S2.H'
+usr\driver\nrf24l01.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(10): error C129: missing ';' before 'const'
+compiling main.c...
+usr\main.c(16): warning C318: can't open file 'stdtype.h'
+usr\main.c(19): warning C318: can't open file 'STC15F2K60S2.H'
+usr\main.c(20): warning C318: can't open file 'NRF24L01.H'
+usr\main.c(21): warning C318: can't open file 'AD.H'
+USR\MAIN.C(30): error C202: 'P0': undefined identifier
+USR\MAIN.C(31): error C202: 'P0': undefined identifier
+USR\MAIN.C(32): error C202: 'P4': undefined identifier
+USR\MAIN.C(33): error C202: 'P3': undefined identifier
+USR\MAIN.C(35): error C129: missing ';' before 'idata'
+Target not created
+Build target 'rc'
+assembling STARTUP.A51...
+compiling ad.c...
+compiling led.c...
+USR\DRIVER\LED.H(17): warning C318: can't open file 'stdtype.h'
+USR\DRIVER\LED.H(35): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(36): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(37): error C202: 'P0': undefined identifier
+USR\DRIVER\LED.H(40): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(41): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(42): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(43): error C202: 'P1': undefined identifier
+USR\DRIVER\LED.H(45): error C129: missing ';' before 'g_setting_type'
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(1): warning C318: can't open file 'STC15F2K60S2.H'
+usr\driver\nrf24l01.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(10): error C129: missing ';' before 'const'
+compiling main.c...
+usr\main.c(16): warning C318: can't open file 'stdtype.h'
+usr\main.c(19): warning C318: can't open file 'STC15F2K60S2.H'
+usr\main.c(20): warning C318: can't open file 'NRF24L01.H'
+usr\main.c(21): warning C318: can't open file 'AD.H'
+USR\MAIN.C(30): error C202: 'P0': undefined identifier
+USR\MAIN.C(31): error C202: 'P0': undefined identifier
+USR\MAIN.C(32): error C202: 'P4': undefined identifier
+USR\MAIN.C(33): error C202: 'P3': undefined identifier
+USR\MAIN.C(35): error C129: missing ';' before 'idata'
+Target not created
+Build target 'rc'
+assembling STARTUP.A51...
+compiling ad.c...
+compiling led.c...
+compiling nrf24l01.c...
+usr\driver\nrf24l01.c(1): warning C318: can't open file 'STC15F2K60S2.H'
+usr\driver\nrf24l01.c(3): warning C318: can't open file 'NRF24L01.H'
+USR\DRIVER\NRF24L01.C(10): error C129: missing ';' before 'const'
+compiling main.c...
+usr\main.c(16): warning C318: can't open file 'stdtype.h'
+usr\main.c(19): warning C318: can't open file 'STC15F2K60S2.H'
+usr\main.c(20): warning C318: can't open file 'NRF24L01.H'
+usr\main.c(21): warning C318: can't open file 'AD.H'
+USR\MAIN.C(30): error C202: 'P0': undefined identifier
+USR\MAIN.C(31): error C202: 'P0': undefined identifier
+USR\MAIN.C(32): error C202: 'P4': undefined identifier
+USR\MAIN.C(33): error C202: 'P3': undefined identifier
+USR\MAIN.C(35): error C129: missing ';' before 'idata'
+Target not created
+Build target 'rc'
+assembling STARTUP.A51...
+compiling ad.c...
+compiling led.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(76): error C202: 'sta': undefined identifier
+USR\DRIVER\NRF24L01.C(78): error C202: 'RX_DR': undefined identifier
+USR\DRIVER\NRF24L01.C(83): error C202: 'sta': undefined identifier
+USR\DRIVER\NRF24L01.C(193): error C129: missing ';' before 'SPI_Read'
+compiling main.c...
+usr\main.c(16): warning C318: can't open file 'stdtype.h'
+usr\main.c(19): warning C318: can't open file 'STC15F2K60S2.H'
+usr\main.c(20): warning C318: can't open file 'NRF24L01.H'
+usr\main.c(21): warning C318: can't open file 'AD.H'
+USR\MAIN.C(30): error C202: 'P0': undefined identifier
+USR\MAIN.C(31): error C202: 'P0': undefined identifier
+USR\MAIN.C(32): error C202: 'P4': undefined identifier
+USR\MAIN.C(33): error C202: 'P3': undefined identifier
+USR\MAIN.C(35): error C129: missing ';' before 'idata'
+Target not created
+Build target 'rc'
+assembling STARTUP.A51...
+compiling ad.c...
+compiling led.c...
+compiling nrf24l01.c...
+USR\DRIVER\NRF24L01.C(195): error C129: missing ';' before 'SPI_Read'
+compiling main.c...
+usr\main.c(16): warning C318: can't open file 'stdtype.h'
+usr\main.c(19): warning C318: can't open file 'STC15F2K60S2.H'
+usr\main.c(20): warning C318: can't open file 'NRF24L01.H'
+usr\main.c(21): warning C318: can't open file 'AD.H'
+USR\MAIN.C(30): error C202: 'P0': undefined identifier
+USR\MAIN.C(31): error C202: 'P0': undefined identifier
+USR\MAIN.C(32): error C202: 'P4': undefined identifier
+USR\MAIN.C(33): error C202: 'P3': undefined identifier
+USR\MAIN.C(35): error C129: missing ';' before 'idata'
+Target not created
